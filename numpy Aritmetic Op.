@@ -1,0 +1,24 @@
+import numpy as np
+
+
+a=np.arange(9,dtype=np.float_).reshape(3,3)
+
+print("First array :")
+print(a)
+
+print("Second Array :")
+
+b=np.array([10,10,10])
+print(b)
+
+print("Add the TWo Array :")
+print(np.add(a,b))
+
+print("Substract the two array :")
+print(np.subtract(a,b))
+
+print("Multiply the two array :")
+print(np.multiply(a,b))
+
+print("Divide the Two arrays:")
+print(np.divide(a,b))
